@@ -20,3 +20,5 @@ Few configs for strongswan and bird routing daemon. After establishing IPSEC con
     
 1.2.3.4, 2.3.4.5 & 3.4.5.6 are WAN IP addresses of host1, host2 & host3 respectively. Interface names use vti + connection_name scheme. 
 More info about VTI could be found here https://wiki.strongswan.org/projects/strongswan/wiki/RouteBasedVPN
+
+P.S. DON'T FORGET TO DISABLE install_routes IN charon.conf!!!
